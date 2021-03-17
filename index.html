@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./assets/css/master.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" /><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <script src="./assets/js/main.js"></script>
+    <title>js-todo-clone</title>
+</head>
+<body>
+   
+        <!-- HEADER -->
+    <div class="header">
+        <img class="logo" src="./assets/img/logo.png" alt="logo Tobolist">
+        <div class="titolo">
+          <h1>Toboolist</h1>
+        </div>
+    </div>
+    <div class="container">
+
+      <div class="task">
+
+           
+
+            <input id="todoTitolo" type="text" name="todoTitolo" value="" placeholder="+ Add new ToDo">
+            <button id="add" type="button" name="button" >ADD</button>
+
+            <ul id="todolist">
+
+            </ul>
+        </div>
+
+      <div id="template">
+          <li>
+            <span class="titolo"></span>
+            <input id="text" type="text" name="" value="" >
+            <span class="edit"><i class="fas fa-pen-square"></i></span>
+            <span class="delete"><i class="fas fa-minus-square"></i></span>
+          </li>
+      </div>
+   </div> 
+   
+        
+    
+    
+</body>
+</html>
