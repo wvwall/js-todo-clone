@@ -35,9 +35,7 @@
    .logo{
     margin-left: 20px;
    }
-  .titolo{
-    margin-left: 10px;
-  }
+  
   
   .task{
     min-height: 250px;
@@ -89,15 +87,15 @@
     padding: 5px 10px;
   }
   li {
-      list-style: none;
+      
       margin-top: 20px;
       margin-bottom: 20px;
       font-size: 18px;
   }
-  li::before {
+  /* li::before {
     font-family: "Font Awesome 5 Free";
-      content: "\f022"
-  }
+      content: "\f022";
+  } */
   .fa-pen-square {
       margin-left: 10px;
       color: #00c853;
